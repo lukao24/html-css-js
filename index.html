@@ -1,0 +1,83 @@
+<html>
+<html dir="ltr" lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <title>Web World</title>
+</head>
+
+<body>
+
+    <head id="menu-topo-icon">
+        <!--Que dizer que toda head faz parte do menu topo icon-->
+        <div id="topo">
+            <main>
+                <!--Conteudo principal 980px "Main"-->
+                <div id="logo">
+                    <img src="./img/logo.jpg" />
+                </div>
+                <div id="redes-sociais">
+                    <ul>
+                        <li><a href=""><img src="./img/linkedin.jpg" /></a></li>
+                        <li><a href=""><img src="./img/twitter.jpg" /></a></li>
+                        <li><a href=""><img src="./img/facebook.jpg" /></a></li>
+                        <li><a href=""><img src="./img/wifi.jpg" /></a></li>
+                    </ul>
+                </div>
+        </div>
+        </main>
+    </head>
+
+    <main class="col-100 main-principal">
+        <!--class="col-100" dentro da main, vai da um padrao 100% no menu,
+    nesse caso e so quando utilizar as li dentro da div do menu-principal, porem funciona dessa forma. -->
+        <div id="topo-borda">
+            <!--posso usar li*6 / li vai ordenar o menu-->
+            <div class="header-2">
+                <div class="menu-principal">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <form action="" method="post">
+            <div class="busca">
+                <input placeholder="Search Something" type="text" />
+
+            </div>
+        </form>
+
+
+        <div id="slider-responsivo">
+            <img id="s1" src="./img/layer12.jpg" style="width:100%" />
+            <img id="s2" src="./img/layer12.jpg" style="width:100%" />
+            <img id="s3" src="./img/layer13.jpg" style="width:100%" />
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div>
+
+
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/slider.js"></script>
+
+
+</body>
+
+</html>
