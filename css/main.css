@@ -146,22 +146,4 @@ border-bottom: 1px solid #00bac6;
    background-size:100%;
    background-repeat: no-repeat;
 }
-#prev{
-    font-size: 0px;
-    border:none;
-    top: 50%;
-    z-index: 4;
-    margin-right:35px;
-    right: 230px;
-    position: relative;
-}
 
-#next{
-    display: inline;
-    font-size: 0px;
-    border:none;
-    z-index: 4;
-    bottom:79px;
-    right: 35px;
-    position: relative;
-}
