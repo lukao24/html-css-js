@@ -56,6 +56,6 @@ $(document).ready(function () {
         });
 
     });
-});  // click do button direita//
+});  // click do button direita/
 
 
