@@ -16,7 +16,7 @@ $(document).ready(function () {
         }
         $(slides[slideatual]).fadeTo(1000, 1);
     }
-});
+});//
 
 
 
